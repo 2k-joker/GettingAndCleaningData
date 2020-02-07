@@ -44,4 +44,28 @@ The following files are available for the train and test data. Their description
 
   * 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration.
 
-  * 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second
+  * 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second  
+## How to Get to the Tidy Data
+ 1. **Download and extract the dataset ( `UCI HAR Dataset` ) into a parent directory.**
+    * Use `download.file()` .
+ 2. **Install required package for this exercise** 
+ 3. **Load data into R and assign data to variables** 
+     * Use `read.table()` function.
+ 4. **Extract mean and std attributes from features list**  
+    * Use `grep()` function.
+ 5. **Merge the training and the test sets to create one data set**
+     * Use a combination of `rbind()` and `cbind()` .  
+ 6. **Extract only the measurements on the mean and standard deviation for each measurement**
+     * Use `dplyr` function `select()` to subset these variables.  
+ 7. **Use descriptive activity names to name the activities in the data set**
+     * Assign the values from `activity_labels.txt` to replace the current observations under the activity column.
+ 8. **Appropriately label the data set with descriptive variable names.**  
+     * Use `names()` and `gsub()` to rename the variables 
+ 9. **Create a second independent tidy data set with the average of each variable for each activity and each subject
+     * Use `dplyr` functions `group_by()` and `summarize_all()` to accomplish this task.
+ 10. **Write the dataset to local disk**
+     * Use `write.table()` for this task.
+  
+When this is done you can use `view()` function to take a look at your newly created and tidied dataset.
+ 
+ 
