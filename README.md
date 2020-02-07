@@ -10,10 +10,10 @@ This script does the following:
 ## Dataset
   [Human Activity Recognition Using Smartphones](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 ## Major steps to follow
-  1. Download the zipped folder and extract to a parent folder. You should have <mark style="background-color: lightblue">UCI HAR     Dataset</mark> in the folder.  
-  2. Set the parent directory as your working directory using the <mark style="background-color: peach"> setwd()</mark> command.  
-  3. Place the <mark style="background-color: lightblue">run_analysis.R</mark> file in the same parent folder as the dataset.  
-  4. Run the <mark style="background-color: lightblue">source("run_analysis.R")</mark>. This will run the script and generate the <mark style="background-color: lightblue">SummarizedData.txt</mark> file into your working directory.  
+  1. Download the zipped folder and extract to a parent folder. You should have `UCI HAR Dataset`in the folder.  
+  2. Set the parent directory as your working directory using the `setwd()`command.  
+  3. Place the `run_analysis.R`file in the same parent folder as the dataset.  
+  4. Run the `source("run_analysis.R")`. This will run the script and generate the `SummarizedData.txt`file into your working directory.  
 ## Packages and Dependencies
-This script requires the use of <mark style="background-color: peach"> dplyr</mark> package.The script installs and loads the package for you.
+This script requires the use of `dplyr`package.The script installs and loads the package for you.
   
