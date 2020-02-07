@@ -15,5 +15,5 @@ This script does the following:
   3. Place the `run_analysis.R` file in the same parent folder as the dataset.  
   4. Run the `source("run_analysis.R")` . This will run the script and generate the `SummarizedData.txt` file into your working directory.  
 ## Packages and Dependencies
-This script requires the use of `dplyr`package.The script installs and loads the package for you.
+This script requires the use of `dplyr` package.The script installs and loads the package for you.
   
