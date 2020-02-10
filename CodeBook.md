@@ -55,7 +55,7 @@ The following files are available for the train and test data. Their description
     * Use `grep()` function.
  5. **Merge the training and the test sets to create one data set**
      * Use a combination of `rbind()` and `cbind()` .  
- 6. **Extract only the measurements on the mean and standard deviation for each measurement**
+ 6. **Extract only the measurements on the mean and standard deviation for each activity**
      * Use `dplyr` function `select()` to subset these variables.  
  7. **Use descriptive activity names to name the activities in the data set**
      * Assign the values from `activity_labels.txt` to replace the current observations under the activity column.
