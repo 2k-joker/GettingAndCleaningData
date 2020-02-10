@@ -61,7 +61,7 @@ The following files are available for the train and test data. Their description
      * Assign the values from `activity_labels.txt` to replace the current observations under the activity column.
  8. **Appropriately label the data set with descriptive variable names.**  
      * Use `names()` and `gsub()` to rename the variables 
- 9. **Create a second independent tidy data set with the average of each variable for each activity and each subject
+ 9. **Create a second independent tidy data set with the average of each variable for each activity and each subject**
      * Use `dplyr` functions `group_by()` and `summarize_all()` to accomplish this task.
  10. **Write the dataset to local disk**
      * Use `write.table()` for this task.
